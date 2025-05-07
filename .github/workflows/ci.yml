@@ -16,7 +16,7 @@ jobs:
       - name: JDK 17 Тохируулах
         uses: actions/setup-java@v4
         with:
-          java-version: "17"
+          java-version: "23.0.1"
           distribution: "temurin"
       - name: Checkstyle Шалгах
         run: mvn checkstyle:check
