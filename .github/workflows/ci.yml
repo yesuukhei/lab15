@@ -19,6 +19,8 @@ jobs:
           java-version: "17"
           distribution: "temurin"
       - name: Checkstyle Шалгах
+        id: checkstyle
         run: mvn checkstyle:check
       - name: JUnit Тест ба JaCoCo Coverage Шалгах ба JaCoCo Тайлан Үүсгэх
+        id: jacoco
         run: mvn verify
