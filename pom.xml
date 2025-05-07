@@ -69,6 +69,18 @@
             <goals>
               <goal>prepare-agent</goal>
             </goals>
+            <configuration>
+                <rules>
+                    <rule>
+                        <element>CLASS</element>
+                        <limit>
+                            <counter>LINE</counter>
+                            <value>COVEREDRATIO</value>
+                            <minimum>0.80</minimum>
+                        </limit>
+                    </rule>
+                </rules>
+            </configuration>
           </execution>
           <execution>
             <id>report</id>
