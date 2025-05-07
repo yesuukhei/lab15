@@ -5,7 +5,7 @@ public class Multiplication {
             throw new IllegalArgumentException("Inputs must be valid numbers.");
         }
       if (a == 0 || b == 0) {
-            System.out.println("One of the number is zero, result will be zero.");
+            System.out.println("One of the .. is zero, result will be zero.");
         }
     
         return a * b;
