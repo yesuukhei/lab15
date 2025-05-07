@@ -16,7 +16,7 @@
 mvn test
 
 # Кодын загвар шалгах
-mvn checkstyle:check
+mvn verify
 
 # Coverage тайлан гаргах
 mvn jacoco:report
