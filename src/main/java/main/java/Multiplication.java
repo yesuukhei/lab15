@@ -7,8 +7,7 @@ public class Multiplication {
       if (a == 0 || b == 0) {
             System.out.println("One of the asdf.. is zero, result will be zero.");
         }
-    
-        return a * b;
+         return a + b;
     }
     
    }
